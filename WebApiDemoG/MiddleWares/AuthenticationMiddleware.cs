@@ -39,7 +39,7 @@ namespace WebApiDemoG.MiddleWares
                 var username = credentials[0];
                 var password = credentials[1];
 
-                if (username == "admin" && password == "admin") // For testing purposea
+                if (username == "ali123" && password == "ali123") // For testing purposea
                 {
                     var claim = new[]
                     {

@@ -103,7 +103,9 @@ namespace WebApiDemoG.Controllers
                     Age = value.Age,
                     Score = value.Score,
                     Fullname = value.Fullname,
-                    SeriaNo = value.SeriaNo
+                    SeriaNo = value.SeriaNo,
+                     Username=value.Username,
+                      Password=value.Password
                 };
                 _studentService.Add(obj);
                 return Ok(obj);
